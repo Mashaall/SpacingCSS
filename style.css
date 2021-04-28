@@ -1,0 +1,49 @@
+h1 {
+    color: #a52a2a;
+    border:solid;
+    
+}
+
+.middle{
+    text-align:center ;
+}
+
+.heading{
+    background-color:#00ffff;
+    display:flex;
+    justify-content:space-between
+}
+
+.parent{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.name a{
+    margin-left:20px;
+}
+
+a:link{
+    color:#ff1493
+}
+
+a:visited{
+    color:#9400d3
+}
+
+.child{
+    position:relative
+}
+
+.child p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.child:hover p{
+    opacity:1
+}
